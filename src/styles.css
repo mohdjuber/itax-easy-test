@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(217 86 167) 0%,
+    rgb(86 93 250) 60.42%,
+    rgb(57 131 251) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  line-height: 120%;
+  font-size: 64px;
+  font-weight: 700;
+  --text-opacity: 1;
+  color: rgb(49 66 89);
+  color: rgba(49, 66, 89, var(--text-opacity));
+}
+p {
+  font-weight: 500;
+  --text-opacity: 1;
+  color: rgb(144 146 163);
+  color: rgba(144, 146, 163, var(--text-opacity));
+  font-size: 20px;
+}
+.btn > Button {
+  padding: 1em;
+  margin: 1em;
+}
+.card {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
